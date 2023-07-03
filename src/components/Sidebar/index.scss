@@ -46,7 +46,7 @@
             }
 
             &:hover {
-                color: #ffd700;
+                color: #FA8072;
 
                 svg {
                     opacity: 0;
@@ -57,7 +57,7 @@
                 }
             }
 
-            &:after {
+            &::after {
                 content: '';
                 font-size: 9px;
                 letter-spacing: 2px;
@@ -92,7 +92,7 @@
 
         a.active {
             svg {
-                color: #ffd700;
+                color: #FA8072;
             }
         }
     }
@@ -117,7 +117,7 @@
             }
             &:hover {
                 .anchor-icon {
-                    color:#ffd700;
+                    color:#FA8072;
                 }
             }
         }
