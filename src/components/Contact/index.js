@@ -32,7 +32,7 @@ const Contact = () => {
                 </h1>
 
                 <p>
-                I am interested in work opportunities related to Python and Data Mining. 
+                I am interested in work opportunities involving Python, Data Mining, and Machine Learning. 
                 If you have any questions, please feel free to contact me using this form.
                 </p>
 
