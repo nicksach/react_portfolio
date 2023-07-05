@@ -32,7 +32,8 @@ const Contact = () => {
                 </h1>
 
                 <p>
-                    I am interested in... if you have any other questions, please contact me using this form.
+                I am interested in work opportunities related to Python and Data Mining. 
+                If you have any questions, please feel free to contact me using this form.
                 </p>
 
                 <div className='contact-form'>
@@ -80,7 +81,7 @@ const Contact = () => {
             </MapContainer>
         </div>
         </div>
-        <Loader type='pacman' />
+        <Loader type='ball-clip-rotate-multiple' />
         </>
     );
 }

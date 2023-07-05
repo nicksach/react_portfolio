@@ -1,0 +1,14 @@
+.img-wrap {
+    background: rgba(8, 126, 253, 0);
+    float: right;
+    width: 53%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    img {
+        margin: auto;
+        display: block;
+    }
+}
