@@ -12,9 +12,9 @@ const Home = () => {
                 I'm Nick Satriano.
                 </h1>
                 <h2>Recent College Graduate / Software Developer / Python Enthusiast</h2>
-                <Link to="/about" className='flat-button'>ABOUT ME</Link>
-                <Link to="/portfolio" className='flat-button'>PORTFOLIO</Link>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                <Link to="/react_portolio/about" className='flat-button'>ABOUT ME</Link>
+                <Link to="/react_portolio/portfolio" className='flat-button'>PORTFOLIO</Link>
+                <Link to="/react_portolio/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
         <Loader type='ball-clip-rotate-multiple'/>
