@@ -14,19 +14,19 @@ const Sidebar = () => {
             <img src={LogoBear} alt="logo" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact="true" activeclassname="active" to="/react_portfolio">
                 <FontAwesomeIcon icon={faHome} color="4d4d4e" />
             </NavLink>
 
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/react_portfolio/about">
                 <FontAwesomeIcon icon={faUser} color="4d4d4e" />
             </NavLink>
 
-            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
+            <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/react_portfolio/portfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="4d4d4e" />
             </NavLink>
 
-            <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+            <NavLink exact="true" activeclassname="active" className="contact-link" to="/react_portfolio/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
             </NavLink>
 
