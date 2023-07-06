@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/react_portfolio" element={<Layout />}>
+        <Route path="/react_portfolio/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
