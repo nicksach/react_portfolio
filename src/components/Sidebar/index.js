@@ -10,7 +10,7 @@ const Sidebar = () => {
 
     return (
     <div className="nav-bar">
-        <Link className="logo" to="/">
+        <Link className="logo" to="/react_portfolio">
             <img src={LogoBear} alt="logo" />
         </Link>
         <nav>
