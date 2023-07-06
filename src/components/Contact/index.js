@@ -6,12 +6,15 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const Contact = () => {
     const form = useRef()
+    const service_key = process.env.SERVICE_KEY
+    const template_key = process.env.TEMPLATE_KEY
+    const email_key = process.env.EMAIL_KEY
     
     const sendEmail = (e) => {
         e.preventDefault()
 
         emailjs
-            .sendForm('service_ip15af9','template_vkuafuu',form.current,'ICls-RG6IWVIHepfq')
+            .sendForm(service_key, template_key, form.current, email_key)
             .then(
                 () => {
                     alert('Message successfully sent!')
