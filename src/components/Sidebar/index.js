@@ -10,11 +10,11 @@ const Sidebar = () => {
 
     return (
     <div className="nav-bar">
-        <Link className="logo" to="/react_portfolio">
+        <Link className="logo" to="/react_portfolio/">
             <img src={LogoBear} alt="logo" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" className="home-link" to="/react_portfolio" end>
+            <NavLink exact="true" activeclassname="active" className="home-link" to="/react_portfolio/" end>
                 <FontAwesomeIcon icon={faHome} color="4d4d4e" />
             </NavLink>
 
