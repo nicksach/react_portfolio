@@ -2,11 +2,13 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { projectList } from "./projectList";
 import './projectDisplay.scss';
+import Loader from 'react-loaders';
 
 function ProjectDisplay() {
     const { id } = useParams();
     const project = projectList[id]
     return (
+        <>
         <div className="project">
             <h1> {project.name} </h1>
 
@@ -26,6 +28,8 @@ function ProjectDisplay() {
             </p3>
 
         </div>
+        <Loader type='ball-clip-rotate-multiple' />
+        </>
     );
 }
 

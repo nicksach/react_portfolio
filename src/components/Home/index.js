@@ -14,7 +14,6 @@ const Home = () => {
                 <h2>Recent College Graduate / Software Developer / Python Enthusiast</h2>
                 <Link to="/react_portfolio/about" className='flat-button'>ABOUT ME</Link>
                 <Link to="/react_portfolio/portfolio" className='flat-button'>PORTFOLIO</Link>
-                <Link to="/react_portfolio/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
         <Loader type='ball-clip-rotate-multiple'/>

@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import About from './components/About';
-import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import ProjectDisplay from './components/Portfolio/projectDisplay';
 
@@ -16,7 +15,6 @@ function App() {
           <Route path="/react_portfolio/about" element={<About />} />
           <Route path="/react_portfolio/portfolio" element={<Portfolio />} />
           <Route path="/react_portfolio/project/:id" element={<ProjectDisplay />} />
-          <Route path="/react_portfolio/contact" element={<Contact />} />
         </Route>
       </Routes>
     </>

@@ -28,14 +28,14 @@
     border-radius: 15px;
     width: 300px;
     height: 300px;
-    margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
     text-align: center;
     background-color: #424c7d;
   }
   .projectItem:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
-    transition: 0.3s ease-in;
+    transition: 0.2s ease-in;
     cursor: pointer;
   }
   
