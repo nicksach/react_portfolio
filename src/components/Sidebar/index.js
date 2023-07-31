@@ -14,7 +14,7 @@ const Sidebar = () => {
             <img src={LogoBear} alt="logo" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/react_portfolio">
+            <NavLink exact="true" activeclassname="active" className="home-link" to="/react_portfolio" end>
                 <FontAwesomeIcon icon={faHome} color="4d4d4e" />
             </NavLink>
 

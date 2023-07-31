@@ -57,7 +57,7 @@
                 }
             }
 
-            &::after {
+            &:after {
                 content: '';
                 font-size: 9px;
                 letter-spacing: 2px;
@@ -71,10 +71,12 @@
                 transition: all 0.3s ease-out;
             }
 
-            &:first-child {
-                &:after{
-                    content: 'HOME';
-                }
+            
+        }
+
+        a.home-link {
+            &:after {
+                content: 'HOME';
             }
         }
 
